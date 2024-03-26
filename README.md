@@ -52,3 +52,29 @@ When designing actions:
   actions like links is usually the best approach.
 
 # Layout and spacing
+
+- Start with too much white space. It's easier to tidy up later rather than starting with too little space.
+- It's better to start by giving too much space to elements and then reduce it.
+- Dense UIs have their place, but it's always good to start with more space. It's more obvious where to remove space than where to add it.
+- Have a system in place for fonts and spacing. 16px is a good start. 4, 8, 12, 16, 24, 32, 48, 64, 96, 128 etc.
+
+---
+
+- You don't have to fill the whole screen. Keep it clean and simple.
+- Start by designing for mobile. Then bring it over to desktop and adjust.
+- Splitting a single column layout into two columns can make it look cleaner and more simple.
+- Be pragmatic, sometimes filling up the screen is the best approach.
+
+---
+
+- If you've a sidebar, sometimes it's better to have a fixed with sidebar and let the main content adjust it's width as the screen shrinks. This applies to components too, don't just percentages to size something unless you actually want it to scale e.g. a profile picture on a card.
+- Don't use grids.
+
+---
+
+- Not everything should be relative sized e.g. text and it's headline, using em unit for the headline. Don't be dogmatic about it and don't do this.
+- As a general rule, elements that are large on large screens need to shrink
+  faster than elements that are already fairly small
+  This applies to buttons too, padding should shrink as the button shrinks.
+
+---
