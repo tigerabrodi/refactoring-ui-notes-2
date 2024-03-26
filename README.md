@@ -31,3 +31,24 @@
 - Sometimes you want to emphasize the labels, e.g. smartphones, depth, width etc.
 
 ---
+
+- Don't let semantics dictate your design. h1 doesn't mean it should be big. Sometimes you can just hide it visually and still have it in the DOM because the content speaks for itself.
+
+---
+
+- Bold fonts are great for emphasis.
+- Sometimes icons may feel like bold because of their color, a way to approach this is to lower the contrast of the icon.
+- Sometimes weight e.g. increasing border width is better than darkening its color when feeling too light.
+
+---
+
+When designing actions:
+
+- Primary actions should be obvious. Solid, high contrast background
+  colors work great here.
+- Secondary actions should be clear but not prominent. Outline styles or
+  lower contrast background colors are great options.
+- Tertiary actions should be discoverable but unobtrusive. Styling these
+  actions like links is usually the best approach.
+
+# Layout and spacing
