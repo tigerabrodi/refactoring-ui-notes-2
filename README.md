@@ -20,7 +20,14 @@
 - Make an effort to highlight what matters and de-emphasize what doesn’t.
 - Don't only use size to convey importance. Use font weights, colors, spacing, etc.
 - Stay away from font weights under 400 for UI work — they can work for
-  large headings but are too hard to read at smaller sizes. If you’re considering
-  Size isn’t everything 34
-  using a lighter weight to de-emphasize some text, use a lighter color or
-  smaller font size instead.
+  large headings but are too hard to read at smaller sizes.
+- Size isn’t everything using a lighter weight to de-emphasize some text, use a lighter color or smaller font size instead.
+
+---
+
+- Don't use grey text on colored backgrounds. Instead use a color with the same hue and adjust saturation and brightness.
+- Emphasize by de-emphasizing: Sometimes you run into the problem of trying to emphasize something that can't be any more emphasize. Then de-emphasize everything its sibling elements.
+- Labels are a last resort: This isn't about forms. It's about attaching labels to information that's already clear without the label. You can also combine labels and values into a text to make it easier to read e.g. "12 left in stock" instead of "In Stock: 12".
+- Sometimes you want to emphasize the labels, e.g. smartphones, depth, width etc.
+
+---
