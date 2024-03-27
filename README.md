@@ -78,3 +78,19 @@ When designing actions:
   This applies to buttons too, padding should shrink as the button shrinks.
 
 ---
+
+- Border can make it clear how elements are grouped together. If not, you can use spacing, e.g. label and input closer together as a group. This applies to vertical and horizontal spacing.
+
+# Designing text
+
+- Don't use too many font sizes. Use a scale and have a system in place. This leads to consistency and design is easier.
+- Picking a font family is hard. Helvetica is a good start. It's neutral and works in a lot of situations.
+- Not always true but Ignore fonts with less than five weights. More weights mean more care have been put into the font.
+- Fonts are usually designed with a purpose. Tight letter spacing is often for headings, and more space between letters is for body text.
+- If a font is popular, it's probably for a good reason.
+- 45-75 characters per line is a good rule of thumb for readability.
+- When you align mixed font sizes, align the baselines. It makes it easier to read.
+- Line height 1.5 is generally good, but that's not always true. Length of paragraphs also matter when picking line height. Longer paragraphs need more line height.
+- When text is larger e.g. headings, line height can be smaller.
+- For links, make sure they look like links. Underline is fine, but sometimes doesn't look nice. You can use color or bold to make it look like a link.
+- Left align text is often always the best choice. Centered text is harder to read. Right align is only good for numbers.
