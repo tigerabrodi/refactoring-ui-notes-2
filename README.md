@@ -88,9 +88,18 @@ When designing actions:
 - Not always true but Ignore fonts with less than five weights. More weights mean more care have been put into the font.
 - Fonts are usually designed with a purpose. Tight letter spacing is often for headings, and more space between letters is for body text.
 - If a font is popular, it's probably for a good reason.
+
+---
+
 - 45-75 characters per line is a good rule of thumb for readability.
 - When you align mixed font sizes, align the baselines. It makes it easier to read.
 - Line height 1.5 is generally good, but that's not always true. Length of paragraphs also matter when picking line height. Longer paragraphs need more line height.
 - When text is larger e.g. headings, line height can be smaller.
 - For links, make sure they look like links. Underline is fine, but sometimes doesn't look nice. You can use color or bold to make it look like a link.
 - Left align text is often always the best choice. Centered text is harder to read. Right align is only good for numbers.
+
+---
+
+- Don't forget, letter spacing can be used to make text nicer, but trust the designers of the font.
+- Headline fonts typically have tighter letter spacing, and should be used for headlines.
+-
