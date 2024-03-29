@@ -102,4 +102,66 @@ When designing actions:
 
 - Don't forget, letter spacing can be used to make text nicer, but trust the designers of the font.
 - Headline fonts typically have tighter letter spacing, and should be used for headlines.
+
+# Working with color
+
+- HSL is the best color format. It's easy to adjust colors and it's easy to understand. Representing colors: hue, saturation, lightness.
+- Hue is the color itself, saturation is how colorful it is, and lightness is how light or dark it is.
+- Hue is measured in degrees, saturation in percentage, and lightness in percentage.
+
+---
+
+- A good color palette into three categories:
+
+  - Greys: Text, borders, backgrounds, form controls, etc.
+  - Primary: Primary buttons, links, etc.
+  - Accent colors: eye grabbing color to highlight important elements, teal, yellow and pink for example
+  - You might also need colors to emphasize different semantic states, red for destructive actions, green for positive actions, etc.
+
+- Define your shades up front. Primary, Neutral and Accents. They should all be in around 5 different shades.
+- Start by picking your base color. Something that would work well on a button as background.
+
+---
+
+- Then you want to find the darkest, base and lightest. Go with a simple alert component to define those.
+- Colors should be in 900 - 100.
+- Greys are easy to pick.
+- If you want to change how light colors look, adjust the lightness. If you want to change how colorful it is, adjust the saturation.
+- To make a color darker, rotate the hue towards the nearest dark hue
+
+---
+
+- Saturating greys: Feel cool, saturate them with blue. Warm, saturate them with some yellow or orange.
+
+---
+
+- Flip the contrast, light background on dark text.
+- Don't rely on color alone, use icons.
+
+# Creating depth
+
+- Light comes from above. To make something feel like its lifted, add a shadow on the bottom.
+- To make something feel like it's pressed, add a shadow on the top. You can use inset box shadow here.
+- Medium shadows are useful for things like dropdowns, tooltips, etc.
+- Large shadow are great for modal dialogs
+- Shadows are great for the interactions too
+- Combining shadows make them look more natural.
+
+---
+
+- Depth can also be created with colors, using light and dark colors.
+- Overlapping elements is another way to create depth.
+
+# Working with images
+
+- Black overlay can help create contrast between images and text.
+- Be aware of scaling down or up original images or svgs
+- If borders of profile picture clash with background, do inset box shadow.
+
+# Finishing touches
+
+- Supercharge the defaults: bulletpoints, checkboxes, radio buttons, etc.
+- Add color with accent borders
+- Decorate your backgrounds with gradients, patterns, etc.
+- Don't overlook empty states, make it clear what's missing and give action.
 -
